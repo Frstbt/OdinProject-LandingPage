@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Hero*/
+#hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 30px;
+}
+
+.separator {
+    width: 50%;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+
+/*info*/
+#info {
+    /* align-items: center; */
+    background-color: blanchedalmond;
+    padding: 30px;
+}
+
+.stuff {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    background-color: green;
+    text-align: center;
+}
