@@ -9,3 +9,4 @@ for (let i = 1; i <= number; i++) {
         console.log(i, " Buzz")
     } else { console.log(i) }
 }
+console.log('jancuk')
